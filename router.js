@@ -28,7 +28,7 @@ define(['backbone'], function () {
             }
 
             router.currentController = controller;
-            controller.apply(null, params);     //每个模块约定都返回controller
+            controller.apply(null, params);     //每个模块都返回controller
         });
     });
     return router;
